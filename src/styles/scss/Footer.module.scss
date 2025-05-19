@@ -1,5 +1,6 @@
 .Footer {
     background: #000;
+    color: #fff;
     width: 100%;
 
     position: sticky;
@@ -8,4 +9,5 @@
     display: flex;
     justify-content: center;
     align-items: start;
+    flex-direction: column;
 }

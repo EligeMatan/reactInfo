@@ -38,6 +38,28 @@
                 "subcontent": "If want to try using React in your existing app or a website, you can add React to an existing project.",
                 "sublink": "https://react.dev/learn/installation#add-react-to-an-existing-project"
             }
-        ]
+        ],
+        "link": "https://react.dev/learn/installation"
+    },
+    {
+        "title": "Setup",
+        "content": [
+            {
+                "subtitle": "Using TypeScript",
+                "subcontent": "TypeScript is a popular way to add type definitions to JavaScript codebases. Learn how to integrate TypeScript into your React projects.",
+                "sublink": "https://react.dev/learn/setup#using-typescript"
+            },
+            {
+                "subtitle": "React Developer Tools",
+                "subcontent": "React Developer Tools is a browser extension that can inspect React components, edit props and state, and identify performance problems. Learn how to install it here.",
+                "sublink": "https://react.dev/learn/setup#react-developer-tools"
+            },
+            {
+                "subtitle": "Next steps ",
+                "subcontent": "Head to the Quick Start guide for a tour of the most important React concepts you will encounter every day.",
+                "sublink": "https://react.dev/learn/setup#next-steps"
+            }
+        ],
+        "link": "https://react.dev/learn/setup"
     }
 ]

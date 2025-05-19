@@ -1,10 +1,35 @@
+import React from 'react';
 import styles from '@/styles/scss/Sidebar.module.scss';
+import loadContent from '../controller/loadContent';
 
-export default function Sidebar() {
+class Sidebar extends React.Component {
 
-    return (
-        <section className={styles.Sidebar}>
-            Sidebar компонент
-        </section>
-    )
-};
+    state = { items: [], error: null };
+
+    loadContent();      // <-- ERROR!!!
+
+    render() {
+        const { position } = this.props;
+        const { items, error } = this.state;
+
+        if (position !== 'right') return null;
+
+        return (
+            <section className={styles.Sidebar}>
+                <p>Sidebar {position}:</p>
+
+                {error && <p className={styles.error}>Не вдалося завантажити меню</p>}
+
+                <ul>
+                    {items.map(({ link, title }, i) => (
+                        <li key={i}>
+                            <a href={link}>{title}</a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        );
+    }
+}
+
+export default Sidebar;
