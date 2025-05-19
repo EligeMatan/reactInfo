@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Quick Start",
+        "content": [
+            {
+                "subtitle": "Creating and nesting components",
+                "subcontent": "React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page. React components are JavaScript functions that return markup:",
+                "sublink": "https://react.dev/learn#components"
+            },
+            {
+                "subtitle": "Writing markup with JSX",
+                "subcontent": "The markup syntax you’ve seen above is called JSX. It is optional, but most React projects use JSX for its convenience. All of the tools we recommend for local development support JSX out of the box.JSX is stricter than HTML. You have to close tags like <br />. Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> wrapper:",
+                "sublink": "https://react.dev/learn#writing-markup-with-jsx"
+            },
+            {
+                "subtitle": "Adding styles",
+                "subcontent": "In React, you specify a CSS class with className. It works the same way as the HTML class attribute:<img className='avatar' />Then you write the CSS rules for it in a separate CSS file:",
+                "sublink": "https://react.dev/learn#adding-styles"
+            }
+        ],
+        "link": "https://react.dev/learn"
+    },
+    {
+        "title": "Installation",
+        "content": [
+            {
+                "subtitle": "Try React",
+                "subcontent": "You don’t need to install anything to play with React. Try editing this sandbox! You can edit it directly or open it in a new tab by pressing the “Fork” button in the upper right corner. Most pages in the React documentation contain sandboxes like this. Outside of the React documentation, there are many online sandboxes that support React: for example, CodeSandbox, StackBlitz, or CodePen. To try React locally on your computer, download this HTML page. Open it in your editor and in your browser!",
+                "sublink": "https://react.dev/learn/installation#try-react"
+            },
+            {
+                "subtitle": "Creating a React App",
+                "subcontent": "If you want to start a new React app, you can create a React app using a recommended framework.",
+                "sublink": "https://react.dev/learn/installation#creating-a-react-app"
+            },
+            {
+                "subtitle": "Add React to an existing project",
+                "subcontent": "If want to try using React in your existing app or a website, you can add React to an existing project.",
+                "sublink": "https://react.dev/learn/installation#add-react-to-an-existing-project"
+            }
+        ]
+    }
+]
